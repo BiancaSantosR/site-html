@@ -12,11 +12,13 @@
     margin-top: 100px;
 }
 
-.box__texto__top{
-    width: 50%;
+.img__top_somos{
+    width: 500px;
 }
+.box__texto__top{
+    width: 40%;
 
-
+}
 
 
 .box__texto{
@@ -29,5 +31,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 40%;
     
+}
+
+.box__mid{
+    margin-top: 50px;
+    text-align: justify;
+    padding: 0 25px;
 }
