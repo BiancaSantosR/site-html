@@ -1,11 +1,15 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 :root{
-    --font-family-primary:'comfortaa',cursive;
-    --primary-color:white;
+    --font-family-primary:'Kanit', sans-serif;
     --secondary-color:#dc3545;
-    --tertiary-color:blue;
+    --tertiary-color: antiquewhite;
+    --quaternary--color:black;
 }
 
+.barra_navegacao {
+    height: 90px;
+   
+  }
 
 .carrosel-box{
     box-sizing: border-box;
@@ -14,6 +18,7 @@
     object-fit: cover;
     object-position: 0% 45%;
     height: 600px;
+    
        
 }
 
@@ -72,13 +77,62 @@
     border: 1px solid var(--secondary-color);
     border-radius: 10px;
     padding:100px 0px 100px 90px;
-
-    
-    
-   
+      
 }
 .box__input{
     display: flex;
     flex-direction: column;
     
+}
+.input__group__login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    color: #ffff;
+
+}
+#button__login{
+    color: blue;
+}
+.login-button {
+    display: flex;
+    align-items: center;}
+.login-button button {
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px #dc3545 ;
+}
+.login-button button:hover {
+    background-color: lightcyan;
+}
+/* rodape*/
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    background-color: #363636;
+    padding: 1% 150px 1% 150px ;
+    margin-bottom: 0;
+    color: aliceblue;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.rodape-container{
+    margin-right: 10px;
+}
+.link-rodape{
+    color: #363636;
+    margin-left: 10px;
+}
+.copyright {
+	
+	font-size: 13px;
+    margin: 10px 0 0;
+}
+/*quem somos*/
+.pag__inicial{
+    height: calc(100vh);
 }

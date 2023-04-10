@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="stylesheet" href="/site-html/css/style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top barra_navegacao">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">Crock'n Roll</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -50,11 +51,11 @@
                 </div>
                 
             </div>
-            <div class="input-group">
+            <div class="input__group__login">
 
                 <div class="input-box">
-                    <label for="email">Email</label>
-                    <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                    <label for="usuaroi">Usuário(a)</label>
+                    <input id="user" type="email" name="usuario" placeholder="Digite nome do usuário" required>
                 </div>
 
                 <div class="input-box">
@@ -63,10 +64,16 @@
                 </div>
             </div>
             <div class="continue-button">
-                <button><a href="/site-html/index.html">Entrar</a></button>
+                <button id="button__login" data-botao>Entrar</a></button>
+            </div>
+            <div class="box__check">
+                <input type="checkbox" class="input__check">
+                <small class="form-text text-muted small_check">Lembre-se de min.</small>
             </div>
         </div>
     </div>
+
+  
     <script src="/site-html/script/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
@@ -74,5 +81,5 @@
 
 </body>
 
-</script>
+
 </html>
