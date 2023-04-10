@@ -2,7 +2,7 @@
 :root{
     --font-family-primary:'comfortaa',cursive;
     --primary-color:white;
-    --secondary-color:black;
+    --secondary-color:#dc3545;
     --tertiary-color:blue;
 }
 
@@ -15,20 +15,20 @@
 .imagem-carrossel-um{
     object-fit: cover;
     object-position: 0% 45%;
-    height: 440px;
+    height: 600px;
        
 }
 
 .imagem-carrossel-dois{
     object-fit: cover;
     object-position: 0% 45%;
-    height: 440px;
+    height: 600px;
      
 }
 .imagem-carrossel-tres{
     object-fit: cover;
     object-position: 0% 68%;
-    height: 440px;
+    height: 600px;
      
 }
 .box__grid_botton{
@@ -55,4 +55,35 @@
 }
 .texto__card{
     margin-bottom: 100px !important;
+}
+
+/* login */
+.body__login{
+    background-image: url(/site-html/imagem/03.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    border: 0;
+    color: var(--primary-color);
+}
+
+.form__login{
+    width: 30%;
+    box-sizing: border-box;
+    margin: 100px auto;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    padding:100px 0px 100px 90px;
+
+    
+    
+   
+}
+.box__input{
+    display: flex;
+    flex-direction: column;
+    
+}
+.input__login{
+    
 }
