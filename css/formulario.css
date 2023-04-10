@@ -1,0 +1,67 @@
+body {
+    background-image: url(../img/03.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    border: 0;
+}
+.container {
+    background-color:rgba(10, 10, 10, 0.74);
+    border-radius: 5px;
+    border: 2px solid #dc3545;
+    width: 450px;
+    max-width: 100%;
+}
+.form-header {
+    padding: 30px 40px;
+    font-weight: 600;
+    color: #ffff;
+}
+.login-button {
+    display: flex;
+    align-items: center;}
+.login-button button {
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px #dc3545 ;
+}
+.login-button button:hover {
+    background-color: lightcyan;
+}
+.input-group {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    color: #ffff;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+.input-box input {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px #dc3546;
+}
+.input-box input:hover {
+    background-color: lightcyan;
+}
+.continue-button button {
+    width: 100%;
+    margin-bottom: 1rem;
+    border: none;
+    padding: 0.50rem;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px #dc3545 ;
+}
+.continue-button button:hover{
+    background-color: lightcyan;
+}
