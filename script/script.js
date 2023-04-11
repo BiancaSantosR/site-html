@@ -10,8 +10,11 @@ botaoLogin.addEventListener("click", (evento) => {
     if (user == "admin" && senha == "admin") {
         alert('Sucesso');
         location.href = "../index.html";
-    } else {
+    } else if (user == "" || senha == "") {
+        alert('Preencha Usuário e/ou Senha');
+    }else{
         alert('Usuario ou senha incorretos');
+
     }
 
     return false

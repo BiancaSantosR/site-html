@@ -49,7 +49,7 @@
             <img src="assets/img/img-hamburger-1.png" alt="">
         </div>
 
-        <div class="form">
+        <form class="form" method="post" action="/site-html/index.html">
             <div class="form-header">
                 <div class="tittle">
                     <h1>Cadastre-se</h1>
@@ -58,13 +58,13 @@
             </div>
             <div class="input-group">
                 <div class="input-box">
-                    <label for="firstname">Primeiro nome</label>
-                    <input id="firstame" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                    <label for="firstname">Usuário(a)</label>
+                    <input id="firstame" type="text" name="firstname" placeholder="Digite o Usuário" required>
                 </div>
 
                 <div class="input-box">
-                    <label for="lastname">Sobrenome</label>
-                    <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                    <label for="lastname">Nome</label>
+                    <input id="lastname" type="text" name="lastname" placeholder="Digite seu Nome" required>
                 </div>
 
                 <div class="input-box">
@@ -75,12 +75,12 @@
                 <div class="input-box">
                     <label for="number">Celular</label>
                     <input id="number" maxlength="11" minlength="11" type="tel" name="number"
-                        placeholder="(xx) x xxxx-xxxx">
+                        placeholder="(xx) x xxxx-xxxx" required>
                 </div>
 
                 <div class="input-box">
                     <label for="password">Senha</label>
-                    <input id="password" type="password" name="password" placeholder="Crie sua senha" required>
+                    <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
                 </div>
 
                 <div class="input-box">
@@ -90,10 +90,10 @@
                 </div>
             </div>
             <div class="continue-button">
-                <button><a href="#">Continuar</a></button>
+                <button type="submit" class="bnt">Continuar</button>
 
             </div>
-        </div>
+        </form>
     </div>
 
   
