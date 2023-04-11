@@ -14,6 +14,7 @@
 
 .img__top_somos{
     width: 500px;
+    box-shadow: 10px 10px 10px 0 #000000;
 }
 .box__texto__top{
     width: 40%;
@@ -22,10 +23,12 @@
 
 
 .box__texto{
-    margin: 100px 0;
+    padding: 100px 0;
+
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
+    background: #888888;
 }
 .paragrafos{
     display: flex;
@@ -34,9 +37,37 @@
     width: 40%;
     
 }
+.titulo__paragrafo{
+    font-weight: bold;
+    
+}
+.paragrafos__texto{
+    text-align:justify;
+}
+.paragrafos__texto::before{
 
+    content: "🟊";
+}
 .box__mid{
     margin-top: 50px;
     text-align: justify;
     padding: 0 25px;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+.titulo-principal {
+	text-align: center;
 }
